@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    margin: 8px;
+    padding: 8px;
+    border-style: solid;
+    /* border-style: dashed; */
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: groove; */
+    /* border-style: ridge; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: none; */
+    /* border-style: hidden; */
+    /* border-style: dotted dashed solid double; */
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid #afa;
+    /* border-top: ;
+    border-bottom: ;
+    border-right: ; */
+    background-color: #aaf;
+    /* border-radius: 8px; */
+    height: 100px;
+    width: 100px;
+    color: #575;
+}
