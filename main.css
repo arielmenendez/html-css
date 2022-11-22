@@ -1,32 +1,29 @@
-body {
-    background-color: #eee;
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    height: 200px;
 }
 
-table {
-    width: 100%;
-    background-color: white;
-    border-collapse: collapse;
+.red {
+    background-color: red;
 }
 
-/* tr:nth-child(odd) {
-    background-color: #f2f2f2;
-} */
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+.primero {
+    /* flex-grow: 1;
+    flex-basis: 120px; */
+    flex: 1 120px;
 }
 
-td {
-    border: 1px solid #ddd;
-    padding: 8px;
+.tercero {
+    flex-grow: 2;
+    /* align-self: auto; */
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: baseline; */
+    align-self: stretch;
 }
 
-table th {
-    background-color: #4CAF50;
-    color: white;
-    text-align: left;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.segundo {
+    flex-grow: 1;
 }
